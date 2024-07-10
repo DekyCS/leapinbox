@@ -1,35 +1,594 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="./styles.css">
-
-    <title>LeapInbox</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LeapInbox is a B2B lead generation agency that helps B2B companies all acorss the US scale through cold email outreach!">
+  <meta name="keywords" content="lead generation, B2B, cold emailing, agency, saas">
+  <meta name="author" content="Omar Lahlou Mimi">
+  <title>LeapInbox - Your Go-To B2B Lead Generation Agency</title>
+  <link rel="shortcut icon" href="./assets/img/favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
 </head>
+
 <body>
-    <section class="dark">
-        <img src="./transparent.png" alt="logo" width="200">
-        <h2 id="top-text">As A Business Owner, You Have One Job:</h2>
-        <h1>GENERATE LEADS</h1>
-        <h3 id="second-text">We Build Outbound Prospecting Infrastructures For B2B Businesses Who Wants A Predictable Sales Pipeline Without Lifting A Finger...</h3>
-        <div class="intro-vid">
-            <iframe width="1000" height="600" src="https://www.youtube.com/embed/OOKUCpk8EOI?si=cnKHedMJt4N6gusR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="content-wrapper bg-light">
+    <header class="position-absolute w-100 pt-1">
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-dark caret-none">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img class="logo-dark" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+              <img class="logo-light" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">LeapInbox</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <div class="offcanvas-header d-lg-none">
+                <h3 class="text-white fs-30 mb-0">LeapInbox</h3>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link scroll" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#about">About</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#services">Services</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#process">Process</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#faq">FAQ</a></li>
+                  <li class="nav-item"><a class="nav-link scroll" href="#contact">Call me</a></li>
+                </ul>
+                <!-- /.navbar-nav -->
+                <div class="offcanvas-footer d-lg-none">
+                  <div>
+                    <a href="mailto:first.last@email.com" class="link-inverse">omar.lahloumimi@leapinbox.com</a>
+                    <br /> 01 (514) 771 45 87 <br />
+                    <nav class="nav social social-white mt-4">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                      <a href="#"><i class="uil uil-instagram"></i></a>
+                      <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                </div>
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
         </div>
-        <button><a>Setup A Strategy Call</a></button>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      
+    </header>
+    <!-- /header -->
+    <section class="wrapper gradient-8 bg-lines" id="home">
+      <div class="container pt-17 pt-md-19 pb-21 pb-lg-23 text-center">
+        <div class="row">
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto" data-cues="zoomIn" data-group="page-title" data-interval="-200" data-delay="500">
+            <h2 class="h6 text-uppercase ls-xl text-white mb-5">Hello! We are LeapInbox</h2>
+            <h2 class="display-1 fs-54 lh-xxs text-white">We Build Outbound Prospecting Infrastructures For B2B Businesses Who Wants A <span class="underline-2 underline-gradient-6"><em>Predictable</em></span> Sales Pipeline Without Lifting A Finger...</h2>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section>
+      <div class="wrapper bg-light" id="about">
+      <div class="container py-15 py-md-17 position-relative">
+        <figure class="rounded mt-n21 mt-lg-n23 mb-16 mb-md-18 position-relative" data-cues="fadeIn" data-delay="250">
+          <a href="./assets/media/leapinboxvslfinal.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox><i class="icn-caret-right"></i></a>
+          <video class="w-100 rounded caption-overlay d-block" poster="./assets/img/photos/thumbnail.jpg" src="./assets/media/leapinboxvslfinal.mp4" autoplay loop playsinline muted></video>
+        </figure>
+        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+          <div class="col-lg-6">
+            <div class="row gx-md-5 gy-5">
+              <div class="col-md-6">
+                <figure class="rounded"><img src="./assets/img/photos/g12.jpg" srcset="./assets/img/photos/g12@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 align-self-end">
+                <figure class="rounded"><img src="./assets/img/photos/g13.jpg" srcset="./assets/img/photos/g13@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-12">
+                <figure class="rounded mx-md-5"><img src="./assets/img/photos/g11.jpg" srcset="./assets/img/photos/g11@2x.jpg 2x" alt=""></figure>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <h2 class="fs-16 text-uppercase text-primary mb-3">Who Are We?</h2>
+            <h3 class="display-3 mb-5">Company that believes in the power of creative strategy.</h3>
+            <p class="mb-6">LeapInbox specializes in building outbound prospecting infrastructures for B2B businesses. We handle your outreach and follow-ups, ensuring a predictable sales pipeline and freeing up your time to focus on growth. Experience exceptional service and results with our dedicated team.</p>
+            <div class="row align-items-center counter-wrapper gy-6">
+              <div class="col-md-6">
+                <h3 class="counter counter-lg mb-1">99.7%</h3>
+                <h5 class="mb-0">Customer Satisfaction</h5>
+              </div>
+              <!--/column -->
+              <div class="col-md-6">
+                <h3 class="counter counter-lg mb-1">12x</h3>
+                <h5 class="mb-0">Revenue Growth</h5>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-6 mb-7 mb-md-9">
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">1</span> </div>
+              </div>
+              <div>
+                <h3>Our Vision</h3>
+                <p class="mb-2">Revolutionize outbound prospecting for seamless and effective B2B sales pipelines.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">2</span> </div>
+              </div>
+              <div>
+                <h3>Our Mission</h3>
+                <p class="mb-2">Handle your outreach and follow-ups, freeing you to focus on growth.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <div class="icon btn btn-block pe-none btn-soft-primary me-4 w-10 h-10"> <span class="number fs-18">3</span> </div>
+              </div>
+              <div>
+                <h3>Our Values</h3>
+                <p class="mb-2">Excellence, customer satisfaction, and innovative strategies for success.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+       </div>
     </section>
 
-    <section class="white">
-        <h2 class="text-white">HOW TO SIGN 3-5 CLIENTS EVERY MONTH USING COLD EMAILS:</h2>
+    <!-- /section -->
+    <section class="wrapper bg-dark text-inverse" id="services">
+      <div class="container py-15 py-md-17">
+        <div class="row text-center">
+          <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+            <h2 class="fs-16 text-uppercase text-white mb-3">Our Services</h2>
+            <h3 class="display-3 text-white mb-10">The full service we are offering is specifically designed to meet your business needs.</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row gx-lg-8 gx-xl-12 gy-9">
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni1.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Seamless Appointments</h3>
+                <p class="mb-0">Free up your time from tedious outreach and follow-ups. Don't lift a finger as we secure and schedule qualified appointments directly in your calendar.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni2.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Email Copywriting</h3>
+                <p class="mb-0">Craft hyper-personalised emails effortlessly and meet any niche-specific requirements, providing a unique edge for effective outreach.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni3.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Bi-Weekly Performance Reports</h3>
+                <p class="mb-0">Receive detailed reports that provide actionable insights to optimize your outreach efforts.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni4.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Lead Research</h3>
+                <p class="mb-0">Uncovering high-value prospects, ensuring data accuracy, and enriching existing lists with over 15+ data points with the most up-to-date information.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni5.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Inbox Management</h3>
+                <p class="mb-0">Free up your time from writing tedious replies every day; we will take care of it for you.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-row">
+              <div>
+                <img src="./assets/img/illustrations/ni6.png" class="w-13 me-5" alt="" />
+              </div>
+              <div>
+                <h3 class="mb-2 text-white">Omnichannel Retargeting</h3>
+                <p class="mb-0">Nurture your outbound leads and schedule more appointments by establishing presence across various platforms like LinkedIn, Instagram, and Youtube.</p>
+              </div>
+            </div>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
     </section>
+    <!-- /section -->
+    <section class="wrapper bg-light" id="process">
+      <div class="container py-14 py-md-16">
+        <h2 class="display-4 mb-3">How We Do It?</h2>
+        <p class="lead fs-lg mb-8">The <span class="underline">Process</span> That Will Maximize Your Sales Opportunities On Demand.</p>
+        <div class="row gx-lg-8 gx-xl-12 gy-6 process-wrapper line">
+          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span class="number">01</span></span>
+            <h4 class="mb-1">Onboarding/Kick Off Call</h4>
+            <p class="mb-0">Our streamlined onboarding process is designed to be time-efficient, taking no more than 45 minutes of your valuable time.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-primary pe-none mb-4"><span class="number">02</span></span>
+            <h4 class="mb-1">Research & Strategy</h4>
+            <p class="mb-0">Clarifying your ideal customer, offer, messaging & setting up the technical infrastructure to get you started with your journey.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span class="number">03</span></span>
+            <h4 class="mb-1">Outbound Ecosystem</h4>
+            <p class="mb-0">Crafting the finest outreach system, catered specifically to your requirements – sit back and let us handle everything for you.</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-6 col-lg-3"> <span class="icon btn btn-circle btn-lg btn-soft-primary pe-none mb-4"><span class="number">04</span></span>
+            <h4 class="mb-1">Qualified Appointments Delivered</h4>
+            <p class="mb-0">Once we've confirmed a time with your ideal prospect, we'll book it straight into your calendar.</p>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gray" id="faq">
+      <div class="container py-15 py-md-17">
+        <div class="row gx-lg-8 gx-xl-12 gy-10">
+          <div class="col-lg-6 mb-0">
+            <h2 class="fs-15 text-uppercase text-primary mb-3">FAQ</h2>
+            <h3 class="display-5 mb-4">If you don't see an answer to your question, you can send us an email from our contact form.</h3>
+            <a href="mailto:omar.lahloumimi@leapinbox.com" class="btn btn-primary rounded-pill">Have your Questions Answered</a>
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <div id="accordion-3" class="accordion-wrapper">
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-1">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-1" aria-expanded="false" aria-controls="accordion-collapse-3-1">Is it really only pay per qualified meeting?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-1" class="collapse" aria-labelledby="accordion-heading-3-1" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Yes, we only charge you at the end of the month for all the qualified meetings that we have generated you.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-2">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-2" aria-expanded="false" aria-controls="accordion-collapse-3-2">Whose name are you using whilst doing outbound?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-2" class="collapse" aria-labelledby="accordion-heading-3-2" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>We use your top sales reps/your name and your company branding to be in touch with prospects.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-3">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-3" aria-expanded="false" aria-controls="accordion-collapse-3-3">What markets/countries do you cover?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-3" class="collapse" aria-labelledby="accordion-heading-3-3" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>We have international coverage - no matter what country you want to reach, we've been there before.</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+              <div class="card accordion-item">
+                <div class="card-header" id="accordion-heading-3-4">
+                  <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3-4" aria-expanded="false" aria-controls="accordion-collapse-3-4">Are you able to provide a fully outsourced sales process upon request?</button>
+                </div>
+                <!-- /.card-header -->
+                <div id="accordion-collapse-3-4" class="collapse" aria-labelledby="accordion-heading-3-4" data-bs-target="#accordion-3">
+                  <div class="card-body">
+                    <p>Yes. We are fully equipped to provide a fully outsourced sales process as well as developing a fully fletched GTM Strategy & Execution. (A route a lot of our clients take since we fully integrate into your team)</p>
+                  </div>
+                  <!-- /.card-body -->
+                </div>
+                <!-- /.collapse -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.accordion-wrapper -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-light">
+      <div class="container py-15 py-md-17">
+        <div class="row">
+          <div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 mx-auto text-center">
+            <h2 class="fs-16 text-uppercase text-primary mb-3">Why Choose LeapInbox?</h2>
+            <h3 class="display-3 mb-10 px-xl-10 px-xxl-15">Here's how we stand out among other lead generation agencies</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <ul class="nav nav-tabs nav-tabs-bg nav-tabs-shadow-lg d-flex justify-content-between nav-justified flex-lg-row flex-column">
+          <li class="nav-item"> <a class="nav-link d-flex flex-row active" data-bs-toggle="tab" href="#tab2-1">
+              <div><img src="./assets/img/illustrations/ni7.png" class="w-13 me-5" alt="" /></div>
+              <div>
+                <h3 class="mb-2">Effortless Usability</h3>
+                <p>We handle all the complexities of outreach, making it easy for you to manage.</p>
+              </div>
+            </a> </li>
+          <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-2">
+              <div><img src="./assets/img/illustrations/ni8.png" class="w-13 me-5" alt="" /></div>
+              <div>
+                <h3 class="mb-2">Fast Transactions</h3>
+                <p>Ensuring fast and efficient processes to keep your sales pipeline moving.</p>
+              </div>
+            </a> </li>
+          <li class="nav-item"> <a class="nav-link d-flex flex-row" data-bs-toggle="tab" href="#tab2-3">
+              <div><img src="./assets/img/illustrations/ni9.png" class="w-13 me-5" alt="" /></div>
+              <div>
+                <h3 class="mb-2">Secure Payments</h3>
+                <p>Vestibulum ligula porta felis maecenas faucibus mollis.</p>
+              </div>
+            </a> </li>
+        </ul>
+        <!-- /.nav-tabs -->
+        
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gray">
 
-    <section class="dark">
-        <h2 id="final-text">SETUP A STRATEGY CALL</h2>
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/omar-lahloumimi-leapinbox/45min?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
     </section>
+    <!-- /section -->
+    <section class="wrapper gradient-8 bg-lines" id="contact">
+      <div class="container py-15 pt-md-0 pb-md-17 text-center">
+        <div class="row text-center">
+          <div class="col-xl-9 mx-auto">
+            <div class="card shadow-lg mt-md-n16 mb-15 mb-md-17">
+              <div class="card-body p-9 p-xl-12">
+                <div class="row gx-0">
+                  <div class="col-xxl-9 mx-auto">
+                    <div class="swiper-container dots-closer mb-6" data-margin="30" data-dots="true">
+                      <div class="swiper">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <span class="ratings five mb-3"></span>
+                            <blockquote class="border-0 fs-lg mb-2">
+                              <p>“Their commitment and passion to the service they provide was evident in every aspect of their work.”</p>
+                              <div class="blockquote-details justify-content-center">
+                                <img class="rounded-circle w-12" src="./assets/img/avatars/te1.jpg" srcset="./assets/img/avatars/te1@2x.jpg 2x" alt="" />
+                                <div class="info">
+                                  <h5 class="mb-1">Coriss Ambady</h5>
+                                  <p class="mb-0">Sales Manager</p>
+                                </div>
+                              </div>
+                            </blockquote>
+                          </div>
+                          <!--/.swiper-slide -->
+                          <div class="swiper-slide">
+                            <span class="ratings five mb-3"></span>
+                            <blockquote class="border-0 fs-lg mb-2">
+                              <p>“Their team was very approachable, and when any problems came up, they were promptly solved.”</p>
+                              <div class="blockquote-details justify-content-center">
+                                <img class="rounded-circle w-12" src="./assets/img/avatars/te2.jpg" srcset="./assets/img/avatars/te2@2x.jpg 2x" alt="" />
+                                <div class="info">
+                                  <h5 class="mb-1">Cory Zamora</h5>
+                                  <p class="mb-0">Managing Director</p>
+                                </div>
+                              </div>
+                            </blockquote>
+                          </div>
+                          <!--/.swiper-slide -->
+                          <div class="swiper-slide">
+                            <span class="ratings five mb-3"></span>
+                            <blockquote class="border-0 fs-lg mb-2">
+                              <p>“Their astuteness in understanding our niche and creating quality links with potential customers lived up to the hype.”</p>
+                              <div class="blockquote-details justify-content-center">
+                                <img class="rounded-circle w-12" src="./assets/img/avatars/te3.jpg" srcset="./assets/img/avatars/te3@2x.jpg 2x" alt="" />
+                                <div class="info">
+                                  <h5 class="mb-1">Jesse Da Silva</h5>
+                                  <p class="mb-0">Founder</p>
+                                </div>
+                              </div>
+                            </blockquote>
+                          </div>
+                          <!--/.swiper-slide -->
+                        </div>
+                        <!--/.swiper-wrapper -->
+                      </div>
+                      <!--/.swiper -->
+                    </div>
+                    <!-- /.swiper-container -->
+                  </div>
+                  <!-- /column -->
+                </div>
+                <!-- /.row -->
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+                    <!-- Calendly inline widget begin -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/omar-lahloumimi-leapinbox/strategy" style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                    <!-- Calendly inline widget end -->
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="wrapper bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x" alt="" />
+            <p class="mb-4">© <script>
+                document.write(new Date().getUTCFullYear());
+              </script> LeapInbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="https://www.youtube.com/@omar.lahloumimi/"><i class="uil uil-youtube"></i></a>
+              <a href="https://www.instagram.com/de.k.yy/"><i class="uil uil-instagram"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Montreal, Quebec, Canada</address>
+            <a href="mailto:omar.lahloumimi@leapinbox.com">omar.lahloumimi@leapinbox.com</a><br /> +1 514 771 4587
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
+            <ul class="list-unstyled  mb-0">
+              <li><a class="scroll" href="#home">Home</a></li>
+              <li><a class="scroll" href="#about">About</a></li>
+              <li><a class="scroll" href="#services">Services</a></li>
+              <li><a class="scroll" href="#faq">FAQ</a></li>
+              <li><a class="scroll" href="#contact">Call me</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup2">
+                <form action="#" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate dark-fields" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll2">
+                    <div class="mc-field-group input-group form-floating">
+                      <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Email Address</label>
+                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                    </div>
+                    <div id="mce-responses2" class="clear">
+                      <div class="response" id="mce-error-response2" style="display:none"></div>
+                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                    <div class="clear"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
 </body>
+
 </html>
